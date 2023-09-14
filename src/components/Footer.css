@@ -1,0 +1,46 @@
+.footer{
+  display: grid;
+  gap: 1rem;
+  margin-inline: auto;
+  width: 25.75rem;
+}
+
+footer .socials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-inline: auto;
+  width: 15rem;
+}
+
+.footer .socials i{
+  font-size: 1rem;
+}
+
+.terms{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.terms p{
+  color: var(--gray-900, #111827);
+  font-family: 'DM Sans', sans-serif;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.copyright{
+  color: var(--gray-500, #6B7280);
+  font-family: 'DM Sans', sans-serif;
+  font-size: .9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-inline: auto;
+  text-align: center;
+  width: 22.875rem;
+}

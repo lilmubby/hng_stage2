@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+
+.nav div {
+  position: relative;
+}
+.nav div svg:last-of-type {
+  position: absolute;
+  right: .3rem;
+  top: .15rem;
+}

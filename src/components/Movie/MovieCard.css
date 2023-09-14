@@ -1,0 +1,62 @@
+.movie_card {
+  width: 15.625rem;
+  /* height: 23.125rem; */
+  /* display: block; */
+}
+
+.movie_card .poster {
+  position: relative;
+}
+
+.movie_card .poster img {
+  width: 15.625rem;
+  height: 23.125rem;
+  /* flex-shrink: 0; */
+}
+
+.movie_card .poster .ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.125rem;
+  position: absolute;
+  top: 1rem;
+  /* inset: 0; */
+}
+
+.movie_card .poster .ratings p {
+  display: flex;
+  padding: 0.1875rem 0.5rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.75rem;
+  background: rgba(243, 244, 246, 0.50);
+  backdrop-filter: blur(1px);
+}
+
+.movie_card .poster .ratings .favourites {
+  width: 1.875rem;
+  height: 1.82569rem;
+}
+
+.movie_card .poster .ratings .favourites svg:first-child{
+  width: 1.875rem;
+  height: 1.82569rem;
+}
+
+.movie_card .poster .ratings .favourites svg:last-child{
+  width: 1.25rem;
+  height: 1.21713rem;
+  position: absolute;
+  right: .3rem;
+  top: .4rem;
+}
+
+.text {
+  display: block;
+}
+
+.imdb_rating_container {
+  display: flex;
+  justify-content: space-between;
+}
