@@ -1,5 +1,15 @@
-.header {
+.pry_header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-inline: 2rem;
+  padding-top: 1rem;
+}
+
+header {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: left top; */
+
 }

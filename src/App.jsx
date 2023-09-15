@@ -21,16 +21,15 @@ function App() {
         const resultDisplay = responseData.results.slice(0,10);
         setMovies(resultDisplay)
       } catch (error) {
-        error => console.error(error)
+        error => console.error(error);
       }
     }
     fetchData()
   }, [])
-  const forSuggested = movies.find((movie) => movie.id === 346698)
 
   return (
     <>
-      <Header movie={forSuggested} />
+      <Header  />
       <Movies movies={movies} />
       <Footer />
     </>
