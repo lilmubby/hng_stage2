@@ -16,7 +16,7 @@ function App() {
         }
       };
       try {
-        const response = await fetch('https://api.themoviedb.org/3/trending/all/week?language=en-US', options);
+        const response = await fetch('https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1', options);
         const responseData = await response.json()
         const resultDisplay = responseData.results.slice(0,10);
         setMovies(resultDisplay)

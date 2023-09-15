@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./MovieCard.css"
 import imdb from "../../assets/imdb.png"
 import rotten from "../../assets/rotten.png"
@@ -8,7 +9,7 @@ const MovieCard = ({movies}) => {
 
   return (
     <>
-      <div className="movie_card" data-testid="movie-card">
+      <Link to={`movie/${movies.id}`} className="movie_card" data-testid="movie-card">
         <div className="poster">
           <img src={`https://image.tmdb.org/t/p/w500${movies.poster_path}`} alt="" data-testid= "movie-poster"/>
           <div className="ratings">
@@ -89,7 +90,7 @@ const MovieCard = ({movies}) => {
           </div>
           <span className="genre">Action, Adventure, Horror</span>
         </div>
-      </div>
+      </Link>
     </>
   );
 };

@@ -1,0 +1,39 @@
+.movie_detail{
+
+}
+
+.details_container{
+  
+}
+.details_container .movie_details{
+
+}
+.details_container .movie_details .title{
+  color: #404040;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.details_container .movie_details .genre span{
+  width: 5.25rem;
+  height: 1.875rem;
+  border-radius: 0.9375rem;
+  border: 1px solid #F8E7EB;
+  color: #B91C1C;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.details_container .movie_overview{
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

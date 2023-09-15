@@ -1,4 +1,6 @@
 .movie_card {
+  color: black;
+  text-decoration: none;
   width: 15.625rem;
   /* height: 23.125rem; */
   /* display: block; */
