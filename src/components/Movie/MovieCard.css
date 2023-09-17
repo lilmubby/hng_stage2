@@ -61,4 +61,5 @@
 .imdb_rating_container {
   display: flex;
   justify-content: space-between;
+  width: 15.625rem;
 }

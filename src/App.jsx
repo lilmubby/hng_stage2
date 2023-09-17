@@ -5,7 +5,12 @@ import Movies from './components/Movie/Movies'
 import Header from './components/Header'
 
 function App() {
-  const [movies, setMovies] = useState([])
+  const [movies, setMovies] = useState([]);
+  const [searchState, setSearchState] = useState({
+    active: false,
+    loading: false,
+    value: ""
+  })
   useEffect(() => {
     const fetchData = async () => {
       const options = {
@@ -26,11 +31,12 @@ function App() {
     }
     fetchData()
   }, [])
+  console.log(searchState);
 
   return (
     <>
-      <Header  />
-      <Movies movies={movies} />
+      <Header setSearchState={setSearchState} />
+      <Movies movies={movies} searchState={searchState} />
       <Footer />
     </>
   )

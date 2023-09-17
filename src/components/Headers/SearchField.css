@@ -14,4 +14,11 @@
 .search_container input::placeholder{
   color: #fff;
   font-size: 1rem;
+  border: none;
+}
+
+.search_container input:focus, 
+.search_container input:active{
+  border: none;
+  color: white;
 }

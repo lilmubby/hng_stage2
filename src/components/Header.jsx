@@ -6,12 +6,12 @@ import "./Header.css"
 import SuggestedMovie from './Headers/SuggestedMovie'
 import Poster from "../assets/poster.png"
 
-const Header = () => {
+const Header = ({setSearchState}) => {
   return (
     <header className='header' style={{height: "100vh", backgroundImage: `url(${Poster})`}}>
       <div className='pry_header'>
         <Logo />
-        <SearchField />
+        <SearchField setSearchState={setSearchState} />
         <Navigation />
       </div>
       <SuggestedMovie />
